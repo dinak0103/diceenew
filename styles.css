@@ -12,6 +12,12 @@
   display: grid;
 }
 
+.dices {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
 .dice {
   text-align: center;
   display: inline-block;
@@ -35,7 +41,7 @@ p {
 }
 
 img {
-  width: 50%;
+  width: 120px;
 }
 
 footer {
