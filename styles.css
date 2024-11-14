@@ -1,0 +1,83 @@
+@font-face {
+	font-family: 'Poppins-Bold'; 
+	src: url(Poppins-Bold.ttf); 
+  font-display: swap;
+}
+
+.container {
+  max-width: 1240px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  text-align: center;
+  display: grid;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #0B0F11;
+  font-family: 'Poppins-Bold', bold;
+}
+
+h1 {
+  margin: 30px;
+  font-size: 3rem;
+  color: #B9FE03;
+}
+
+p {
+  font-size: 1.75rem;
+  color: #B9FE03;
+}
+
+img {
+  width: 50%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+
+}
+
+
+@media screen and (max-width: 380px) {
+
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+
+  h1 {
+    font-size: 8rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  img {
+    width: 80%;
+  }
+
+
+}
+
+@media screen and (min-width: 1240px) {
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+}
